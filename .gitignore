@@ -1,0 +1,5 @@
+dist/
+.context/
+.serena/
+.DS_Store
+*.dSYM/

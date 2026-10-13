@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Jump 한글 입력 보정",
+  "version": "0.1.1",
+  "description": "Jump의 한글 키에 문자 삽입이 누락되는 웹 입력창을 보완합니다. ChatGPT는 자동, 다른 사이트는 아이콘으로 적용합니다.",
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [{
+    "matches": ["https://chatgpt.com/*", "https://chat.openai.com/*"],
+    "js": ["fix.js"],
+    "run_at": "document_start"
+  }],
+  "background": {"service_worker": "background.js"},
+  "action": {"default_title": "이 페이지의 Jump 한글 보정 켜기 / 끄기"}
+}
