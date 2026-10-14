@@ -4,6 +4,8 @@
 
 한글 키의 `keydown`은 웹페이지에 도착하지만 문자 삽입 이벤트는 발생하지 않고, Backspace 삭제는 정상 처리되는 패턴을 관측했습니다. 이 패턴을 보완한 뒤 ChatGPT와 뤼튼에서 한글·쌍자음·공백 입력이 정상이라고 사용자가 확인했습니다. 모든 브라우저·운영체제·AI 사이트를 검증한 것은 아닙니다.
 
+**증상별 적용 범위·설치 방법·실측 근거:** [점프데스크톱 한글 입력 오류 해결 가이드 (30초 진단 포함)](https://saramjh.github.io/jump-desktop-whale-korean-input-fix/). 웨일 웹 입력 누락을 보정하는 확장과 맥 ABC 자동 전환 앱의 용도를 구분해 설명합니다.
+
 ## 다운로드
 
 [GitHub Releases](https://github.com/saramjh/whale-jump-hangul-fix/releases)에서 받습니다.
